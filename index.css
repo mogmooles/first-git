@@ -16,6 +16,16 @@ body {
   align-items: center;
   background: white;
 }
+.title {
+font-size: 30px
+}
+.button {
+  font-size: 24px
+}
+
+
+
+
 /* %circle {  
     $size : 300px; // 円の直径
     // border: solid #000 1px; // 今回は線を引かなかったためコメントアウト
