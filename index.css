@@ -2,17 +2,41 @@ body {
     background-color: hsl(216, 19%, 88%);
     margin: 0;
     height: 100vh;
-    display:flex;
+    display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 .table {
     color: hsl(130, 17%, 28%);
-    width:450px;
-    height:400px;
-    margin:auto;
+    width: auto;
+    height: 400px;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
+/* %circle {  
+    $size : 300px; // 円の直径
+    // border: solid #000 1px; // 今回は線を引かなかったためコメントアウト
+    border-radius: 50%;
+    width: $size; height: $size;
+  
+    .inner { // 内接四角形
+      margin: ($size - $size / 1.41) / 2;
+      width: $size / 1.41; height: $size / 1.41;
+      overflow: hidden;
+    }
+  
+    .box {
+      display: table;
+      width: 100%; height: 100%;
+    }
+  
+    .txt {
+      display: table-cell;
+      width: 100%; height: 100%;
+      text-align: center;
+      vertical-align: middle;
+*/
