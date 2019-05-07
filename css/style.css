@@ -29,9 +29,11 @@ a {
 a:hover {
     text-decoration: underline;
 }
+/* ここまで初期設定（余白消しなど） */
 
 header {
     width: 800px;
+    /* 960pxがオススメらしい */
     height: 100px;
     margin: auto;
 }
@@ -47,11 +49,6 @@ header {
     float: right;
 }
 
-footer small {
-    display: block;
-    text-align: center;
-}
-
 .global-nav li {
     margin: 0 10px;
     font-size: 20px;
@@ -63,6 +60,10 @@ footer small {
     font-family: 'Righteous', cursive;
     color: #ffffff
 }
+
+footer small {
+    text-align: center;
+}
 /* ここまで共通のCSS */
 
 #index {
@@ -71,13 +72,13 @@ footer small {
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    position: relative;
 }
 
 #index::before{
     content: "";
     display: block;
     position: fixed;
+    /* absoluteだとスクロールした時にバックグラウンドカラーが切れてしまう */
     top: 0;
     left: 0;
     right: 0;
@@ -86,7 +87,8 @@ footer small {
 }
 
 #index-bg {
-    position: relative;
+    /* これがないと文字に背景色が重なってしまう */
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -94,10 +96,10 @@ footer small {
 }
 
 #index h1 {
-    text-align: center;
     font-size: 100px;
     font-family: 'Righteous', cursive;
     width:  900px;
+    text-align: center;
     margin: auto;
 }
 
@@ -112,7 +114,7 @@ footer small {
     margin: auto;
 }
 
- .btn a { 
+.btn a { 
     display: block;
     text-decoration: none;
     background-color: #e95935a9;
@@ -139,6 +141,4 @@ footer small {
 #index footer {
     float: right;
 }
-
-
 /* ここまでindexのCSS */
