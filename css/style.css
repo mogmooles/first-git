@@ -31,7 +31,7 @@ a:hover {
 }
 
 header {
-    width: 960px;
+    width: 800px;
     height: 100px;
     margin: auto;
 }
@@ -63,3 +63,82 @@ footer small {
     font-family: 'Righteous', cursive;
     color: #ffffff
 }
+/* ここまで共通のCSS */
+
+#index {
+    background-image: url(../images/BX2Il6nN.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+#index::before{
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(0,0,0,0.25);
+}
+
+#index-bg {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#index h1 {
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Righteous', cursive;
+    width:  900px;
+    margin: auto;
+}
+
+#index #wrap {
+    min-width: 900px;
+}
+
+.article p {
+    font-size: 18px;
+    text-align: center;
+    width: 900px;
+    margin: auto;
+}
+
+ .btn a { 
+    display: block;
+    text-decoration: none;
+    background-color: #e95935a9;
+    color: #ffffff;
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+    line-height: 70px;
+    width: 200px;
+    border: 2px solid #e95935a9;
+    text-align: center;
+    border-radius: 10px;
+} 
+
+.btn a:hover{
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #e95935a9
+}
+
+#index .btn a {
+    margin: 150px auto;
+}
+
+#index footer {
+    float: right;
+}
+
+
+/* ここまでindexのCSS */
