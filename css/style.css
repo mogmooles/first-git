@@ -67,32 +67,15 @@ footer small {
 /* ここまで共通のCSS */
 
 #index {
-    background-image: url(../images/BX2Il6nN.jpg);
+    background: linear-gradient(
+        -45deg,rgba(0, 0, 0, 0.4) 25%,rgba(0, 0, 0, 0.5) 25%,
+        rgba(0, 0, 0, 0.5) 50%,rgba(0, 0, 0, 0.4) 50%,
+        rgba(0, 0, 0, 0.4) 75%,rgba(0, 0, 0, 0.5) 75%,
+        rgba(0, 0, 0, 0.5)),url(../images/BX2Il6nN.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-}
-
-#index::before{
-    content: "";
-    display: block;
-    position: fixed;
-    /* absoluteだとスクロールした時にバックグラウンドカラーが切れてしまう */
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color:rgba(0,0,0,0.25);
-}
-
-#index-bg {
-    /* これがないと文字に背景色が重なってしまう */
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
 }
 
 #index h1 {
