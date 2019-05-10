@@ -32,9 +32,13 @@ a:hover {
 /* ここまで初期設定（余白消しなど） */
 
 header {
-    width: 800px;
+    width: 900px;
     /* 960pxがオススメらしい */
     height: 100px;
+    margin: auto;
+}
+.article {
+    width: 900px;
     margin: auto;
 }
 
@@ -61,8 +65,32 @@ header {
     color: #ffffff
 }
 
+footer {
+    width: 900px;
+    margin: auto;
+}
+
 footer small {
-    text-align: center;
+    font-size: 12px;
+}
+
+.btn a { 
+    display: block;
+    text-decoration: none;
+    background-color: #e95935a9;
+    color: #ffffff;
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+    line-height: 70px;
+    width: 200px;
+    border: 2px solid #e95935a9;
+    border-radius: 10px;
+} 
+
+.btn a:hover{
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #e95935a9
 }
 /* ここまで共通のCSS */
 
@@ -78,50 +106,24 @@ footer small {
     background-size: cover;
 }
 
-#index h1 {
+#index .article {
+    text-align: center;
+}
+
+#index .article h1 {
     font-size: 100px;
     font-family: 'Righteous', cursive;
     width:  900px;
-    text-align: center;
-    margin: auto;
 }
-
-#index #wrap {
-    min-width: 900px;
-}
-
-.article p {
+#index .article p {
     font-size: 18px;
-    text-align: center;
-    width: 900px;
-    margin: auto;
-}
-
-.btn a { 
-    display: block;
-    text-decoration: none;
-    background-color: #e95935a9;
-    color: #ffffff;
-    font-family: 'Righteous', cursive;
-    font-size: 24px;
-    line-height: 70px;
-    width: 200px;
-    border: 2px solid #e95935a9;
-    text-align: center;
-    border-radius: 10px;
-} 
-
-.btn a:hover{
-    text-decoration: none;
-    background-color: #ffffff;
-    color: #e95935a9
 }
 
 #index .btn a {
     margin: 150px auto;
 }
 
-#index footer {
+#index footer small {
     float: right;
 }
 /* ここまでindexのCSS */
