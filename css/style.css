@@ -23,10 +23,11 @@ ul {
 }
 
 a {
+    color: #ffffff;
     text-decoration: none;
 }
 
-a:hover {
+a:hover{
     text-decoration: underline;
 }
 /* ここまで初期設定（余白消しなど） */
@@ -42,10 +43,14 @@ header {
     margin: auto;
 }
 
-.name {
+.name a {
     font-size:  50px;
     float: left;
     font-family: 'Lobster', cursive;
+}
+
+.name a:hover {
+    text-decoration: none;
 }
 
 .global-nav {
@@ -90,7 +95,7 @@ footer small {
 .btn a:hover{
     text-decoration: none;
     background-color: #ffffff;
-    color: #e95935a9
+    color: #e95935a9;
 }
 /* ここまで共通のCSS */
 
@@ -127,3 +132,18 @@ footer small {
     float: right;
 }
 /* ここまでindexのCSS */
+
+#about {
+    background-image: url(../images/WvaIpZ9u.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: top center;
+}
+
+#about #wrap {
+    padding: 35px 0;
+    min-width: 900px;
+    color: black;
+    background-color: #ffffff
+}
