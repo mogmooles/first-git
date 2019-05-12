@@ -1,0 +1,65 @@
+header {
+    width: 900px;
+    /* 960pxがオススメらしい */
+    height: 100px;
+    margin: auto;
+}
+.article {
+    width: 900px;
+    margin: auto;
+}
+
+.name a {
+    font-size:  50px;
+    float: left;
+    font-family: 'Lobster', cursive;
+}
+
+.name a:hover {
+    text-decoration: none;
+}
+
+.global-nav {
+    margin-top: 50PX;
+    float: right;
+}
+
+.global-nav li {
+    margin: 0 10px;
+    font-size: 20px;
+    float: left;
+    list-style: none;
+}
+
+.global-nav li a {
+    font-family: 'Righteous', cursive;
+    color: #ffffff
+}
+
+footer {
+    width: 900px;
+    margin: auto;
+}
+
+footer small {
+    font-size: 12px;
+}
+
+.btn a { 
+    display: block;
+    text-decoration: none;
+    background-color: #e95935a9;
+    color: #ffffff;
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+    line-height: 70px;
+    width: 200px;
+    border: 2px solid #e95935a9;
+    border-radius: 10px;
+} 
+
+.btn a:hover{
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #e95935a9;
+}
