@@ -10,6 +10,10 @@
     background-size: cover;
 }
 
+#index #wrap {
+    background-color: #aaaaaa00;
+}
+
 #index .article {
     text-align: center;
 }
@@ -32,17 +36,17 @@
 }
 /* ここまでindexのCSS */
 
-#about {
-    background-image: url(../images/WvaIpZ9u.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-    background-position: top center;
+#about .profile-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-#about #wrap {
-    padding: 35px 0;
-    min-width: 900px;
-    color: black;
-    background-color: #ffffff
+#about .profile-area p {
+    width: 600px;
+}
+
+#about .profile-area img {
+    width: 250px;
+    height: 180px;
 }
