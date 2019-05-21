@@ -3,14 +3,17 @@ header {
     justify-content: space-between;
     width: 900px;
     /* 960pxがオススメらしい */
-    height: 100px;
+    height: 150px;
     margin: auto;
 }
-#wrap {
+main {
+    min-width: 900px;
     background-color: #ffffff;
+    background-attachment: fixed;
+    background-size: 100%;
 }
 
-.article {
+main #wrap {
     width: 900px;
     margin: auto;
 }
@@ -27,7 +30,7 @@ header {
 .global-nav {
     display: flex;
     flex-direction: row-reverse;
-    margin-top: 50PX;
+    margin-top: 100px;
 }
 
 .global-nav li {
@@ -76,9 +79,9 @@ footer {
     background-color: #ffffff;
 }
 
-#about,#contact,#works {
+#about, #contact, #works {
     font-size: 18px;
-    background-color: rgb(75, 46, 46);
+    background-color: #4b2e2e;
     color: black;
     background-image: url(../images/WvaIpZ9u.jpg);
     background-repeat: no-repeat;
@@ -94,15 +97,14 @@ footer small {
 
 #about #wrap, #contact #wrap, #works #wrap {
     padding: 35px 0 0;
-    min-width: 900px;
     color: black;
 }
 
-.main h1 {
+main h1 {
     border-bottom: 5px solid #e95935a9;
 }
 
-.main h2 {
+main h2 {
     margin-top: 20px;
     border-bottom: 2px dotted #e95935a9;
 }
