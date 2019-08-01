@@ -108,7 +108,7 @@ footer small {
 #about #wrap,
 #contact #wrap,
 #works #wrap {
-  padding: 35px 0 0;
+  padding: 35px 0;
   color: black;
 }
 
@@ -124,5 +124,39 @@ footer small {
 section p,
 section table {
   margin-left: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 0 10px;
+}
+
+table,
+th,
+td {
+  border: 2px dashed red;
+  border-collapse: collapse;
+}
+
+table {
+  filter: drop-shadow(0 0 5px rgba(128, 128, 128, 0.76));
+}
+
+.table_img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.5));
+}
+
+#contact table {
+  filter: none;
+}
+
+#contact table,
+#contact th,
+#contact td {
+  border: none;
 }
