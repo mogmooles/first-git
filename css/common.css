@@ -1,110 +1,128 @@
 header {
-    display: flex;
-    justify-content: space-between;
-    width: 900px;
-    /* 960pxがオススメらしい */
-    height: 150px;
-    margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  /* 960pxがオススメらしい */
+  height: 150px;
+  margin: auto;
 }
+
 main {
-    min-width: 900px;
-    background-color: #ffffff;
-    background-attachment: fixed;
-    background-size: 100%;
-}
-
-main #wrap {
-    width: 900px;
-    margin: auto;
-}
-
-.name a {
-    font-size:  50px;
-    font-family: 'Lobster', cursive;
-}
-
-.name a:hover {
-    text-decoration: none;
-}
-
-.global-nav {
-    display: flex;
-    flex-direction: row-reverse;
-    margin-top: 100px;
-}
-
-.global-nav li {
-    margin: 0 10px;
-    font-family: 'Righteous', cursive;
-    font-size: 20px;
-    list-style: none;
-}
-
-.global-nav li a {
-    font-family: 'Righteous', cursive;
-    color: #ffffff
-}
-
-footer {
-    width: 900px;
-    margin: auto;
-}
-
-.btn a { 
-    display: block;
-    text-decoration: none;
-    background-color: #e95935a9;
-    color: #ffffff;
-    font-family: 'Righteous', cursive;
-    font-size: 24px;
-    line-height: 70px;
-    width: 200px;
-    border: 2px solid #e95935a9;
-    border-radius: 10px;
-} 
-
-.btn a:hover{
-    text-decoration: none;
-    background-color: #ffffff;
-    color: #e95935a9;
-}
-
-.site-now {
-    color: black;
-    border: 4px solid #ffffff;
-    border-radius: 10px;
-    text-align: center;
-    width: 100px;
-    height: 50px;
-    background-color: #ffffff;
-}
-
-#about, #contact, #works {
-    font-size: 18px;
-    background-color: #4b2e2e;
-    color: black;
-    background-image: url(../images/WvaIpZ9u.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-    background-position: top center;
-}
-
-footer small {
-    color: #ffffff;
-    font-size: 12px;
-}
-
-#about #wrap, #contact #wrap, #works #wrap {
-    padding: 35px 0 0;
-    color: black;
+  min-width: 900px;
+  background-color: #ffffff;
+  background-attachment: fixed;
+  background-size: 100%;
 }
 
 main h1 {
-    border-bottom: 5px solid #e95935a9;
+  font-family: "Righteous", cursive;
+  border-bottom: 5px solid #e95935a9;
 }
 
 main h2 {
-    margin-top: 20px;
-    border-bottom: 2px dotted #e95935a9;
+  font-family: "Righteous", cursive;
+  margin-top: 20px;
+  border-bottom: 2px dotted #e95935a9;
+}
+
+footer {
+  width: 900px;
+  margin: auto;
+}
+
+footer small {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.name a {
+  font-size: 50px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 5px 0 #7a5d5d;
+}
+
+.name a:hover {
+  text-decoration: none;
+}
+
+.global-nav {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 100px;
+}
+
+.global-nav li {
+  margin: 0 10px;
+  font-family: "Righteous", cursive;
+  font-size: 20px;
+  list-style: none;
+}
+
+.global-nav li a {
+  font-family: "Righteous", cursive;
+  color: #ffffff;
+}
+
+.btn a {
+  display: block;
+  text-decoration: none;
+  background-color: #e95935a9;
+  color: #ffffff;
+  font-family: "Righteous", cursive;
+  font-size: 24px;
+  line-height: 70px;
+  width: 200px;
+  border: 2px solid #e95935a9;
+  border-radius: 10px;
+}
+
+.btn a:hover {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #e95935a9;
+}
+
+.site-now {
+  color: black;
+  border: 4px solid #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  background-color: #ffffff;
+}
+
+#about,
+#contact,
+#works {
+  font-size: 18px;
+  background-color: #4b2e2e;
+  color: black;
+  background-image: url(../images/headder_image.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: top center;
+}
+
+#about #wrap,
+#contact #wrap,
+#works #wrap {
+  padding: 35px 0 0;
+  color: black;
+}
+
+#wrap {
+  width: 900px;
+  margin: auto;
+}
+
+#wrap > * {
+  margin: 0 20px;
+}
+
+section p,
+section table {
+  margin-left: 10px;
+  margin-top: 10px;
 }

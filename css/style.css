@@ -1,57 +1,65 @@
 #index {
-    background: repeating-linear-gradient(
-        -45deg,rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)80px, rgba(0, 0, 0, 0.5) 80px,
-        rgba(0, 0, 0, 0.5) 160px), url(../images/BX2Il6nN.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
+  background: repeating-linear-gradient(
+      -45deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4) 80px,
+      rgba(0, 0, 0, 0.5) 80px,
+      rgba(0, 0, 0, 0.5) 160px
+    ),
+    url(../images/home_image.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #index header {
-    height: 100px;
+  height: 100px;
 }
 #index ul {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 #index main {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 #index main {
-    text-align: center;
+  text-align: center;
 }
 
 #index main h1 {
-    font-size: 100px;
-    font-family: 'Righteous', cursive;
-    width:  900px;
+  margin: auto;
+  font-size: 100px;
+  width: 900px;
+  border: none;
 }
 #index main p {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 #index .btn a {
-    margin: 150px auto;
+  margin: 150px auto;
 }
 
 #index footer small {
-    float: right;
+  float: right;
 }
 /* ここまでindexのCSS */
 
 #about .profile-area {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-#about .profile-area p {
-    width: 600px;
+#about #profile_image {
+  width: 250px;
+  height: 180px;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
-#about .profile-area img {
-    width: 250px;
-    height: 180px;
+#about .text {
+  width: 600px;
 }
